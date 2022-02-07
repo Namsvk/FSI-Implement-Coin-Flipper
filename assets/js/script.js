@@ -73,6 +73,8 @@ document.addEventListener('DOMContentLoaded', function () {
         tailsCountData.textContent = 0
         headsPercentData.textContent = 0
         tailsPercentData.textContent = 0
+        pennyImg.src = "assets/images/penny-heads.jpg"
+        message.textContent = " Lets Roll !!"
     })
         // TODO: Reset global variables to 0
         // TODO: Update the scoreboard (same logic as in flip button click handler)
